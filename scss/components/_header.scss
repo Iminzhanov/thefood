@@ -24,7 +24,7 @@
 		font-weight: 500;
 		font-size: 25px;
 		line-height: 38px;
-		color: $color-orange;
+		color: "$color-orange";
 	}
 }
 
@@ -41,7 +41,7 @@
 	&__link {
 		font-weight: 400;
 		font-size: 16px;
-		color: $color-black;
+		color: "$color-black";
 	}
 }
 
@@ -64,3 +64,4 @@
 		transform: translateX(50%);
 	}
 }
+
