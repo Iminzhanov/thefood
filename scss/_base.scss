@@ -98,3 +98,7 @@ span {
     background-color: black;
   }
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
