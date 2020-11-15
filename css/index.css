@@ -14,7 +14,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
 }
 
 li {
@@ -316,5 +315,13 @@ span {
   z-index: -3 !important;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.categories {
+  height: 100vh;
+}
+
+.categories__header {
+  margin-top: 190px;
 }
 /*# sourceMappingURL=index.css.map */
