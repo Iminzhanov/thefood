@@ -39,6 +39,13 @@ span {
   display: flex;
   flex-wrap: wrap;
 }
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items {
+  align-items: center;
+}
 
 .btn {
   font-weight: 600;

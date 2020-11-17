@@ -54,7 +54,35 @@
 		margin: 15px 0 10px;
 		color: $color-spaceGray;
 	}
+	&__add {
+		justify-content: space-between;
+	}
+	&__item {
+		padding-left: 30px;
+	}
+	&__back {
+		padding: 10px 10px;
+	}
+	&__add {
+        position: relative;
+		background: orange;
+		height: 33px;
+		/* width: 20px; */
+		/* padding: 1px 1px; */
+		left: -10px;
+	}
+		&__cross:after {
+			position: absolute;
+			background: orange;
+			content: "";
+			/* height: 20px; */
+			left: -22px;
+			top: 12px;
+			width: 39px;
+			padding: 2px;
 }
+		}
+
 
 @keyframes triangle {
 	0% {
