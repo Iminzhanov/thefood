@@ -890,4 +890,113 @@ span {
 .services__item:hover img {
   border-color: white;
 }
+
+.sort {
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.sort__filter {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sort .filter__items {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 65px;
+  color: #707070;
+  cursor: pointer;
+}
+
+.sort .filter__items:nth-child(1) {
+  margin: 0;
+}
+
+.sort .filter__items--active {
+  position: relative;
+  color: #ffbe00;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sort .filter__items--active::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 14px;
+  height: 12px;
+  background: url("../images/triangle.svg");
+  -webkit-animation: triangle 0.3s forwards ease-in-out;
+          animation: triangle 0.3s forwards ease-in-out;
+}
+
+.sort__row {
+  padding-top: 105px;
+}
+
+.sort__info {
+  padding: 50px 15px 0;
+}
+
+.sort__picture {
+  width: 100%;
+}
+
+.sort__title {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  color: #222222;
+}
+
+.sort__price {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffbe00;
+}
+
+.sort__description {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0 10px;
+  color: #707070;
+}
+
+@-webkit-keyframes triangle {
+  0% {
+    bottom: -22px;
+    opacity: 0;
+  }
+  50% {
+    bottom: -8px;
+    opacity: 0.5;
+  }
+  100% {
+    bottom: -12px;
+    opacity: 1;
+  }
+}
+
+@keyframes triangle {
+  0% {
+    bottom: -22px;
+    opacity: 0;
+  }
+  50% {
+    bottom: -8px;
+    opacity: 0.5;
+  }
+  100% {
+    bottom: -12px;
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -27,3 +27,17 @@ for (let aydai = 0; aydai < 3; aydai++) {
     eraly()
   });
 }
+function sortSection() {
+  const sortItems = document.querySelectorAll('.filter__items');
+  sortItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      sortItems.forEach((everyElement) => {
+        everyElement.classList.remove('filter__items--active');
+      });
+      item.classList.add('filter__items--active');
+    });
+  });
+  console.log(sortItems);
+}
+sortSection();
+
