@@ -10,6 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 li {
@@ -32,6 +33,11 @@ span {
 
 .orange {
   color: $color-orange;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -69,7 +75,6 @@ span {
   z-index: 2;
   width: 100vw;
   height: 100vh;
-
 }
 
 .over {
@@ -98,7 +103,20 @@ span {
     background-color: black;
   }
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.section {
+  &__header {
+    max-width: 892px;
+    margin: 0 auto;
+  }
+	&__title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+
+	}
+	&__description {
+    padding-bottom: 90px;
+    font-size: 16px;
+    color: $color-darkGray;
+	}
 }

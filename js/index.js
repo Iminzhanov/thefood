@@ -1,4 +1,3 @@
-
 let scene = document.getElementById('scene');
 let parallax = new Parallax(scene);
 
@@ -122,26 +121,27 @@ function timer() {
   });
 }
 
-setTimeout(timer, 500)
+setTimeout(timer, 500);
 
 TweenMax.to('.over-1', 1, {
   delay: 0.3,
-  top: "-100%",
+  top: '-100%',
   ease: Expo.easeInOut,
 });
 
 TweenMax.to('.over-2', 1, {
-  delay: 0.5,
-  top: "-100%",
+  delay: 0.7,
+  top: '-100%',
   ease: Expo.easeInOut,
 });
 
 TweenMax.to('.over-3', 1, {
-  delay: 0.7,
-  top: "-100%",
+  delay: 1.1,
+  top: '-100%',
   ease: Expo.easeInOut,
 });
+
 TweenMax.to('.overlay', 1, {
-  delay: 0.7,
+  delay: 1.1,
   zIndex: -1,
 });
