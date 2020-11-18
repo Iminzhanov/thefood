@@ -996,28 +996,34 @@ span {
   padding-left: 30px;
 }
 
-.sort__back {
-  padding: 10px 10px;
+.sort__add {
+  cursor: pointer;
+  width: 66px;
+  height: 51px;
+  border-radius: 11px;
+  background-color: orange;
+  border: 2px;
 }
 
-.sort__add {
+.sort__cross {
   position: relative;
-  background: orange;
-  height: 33px;
-  /* width: 20px; */
-  /* padding: 1px 1px; */
-  left: -10px;
+  top: 2px;
+  height: 29px;
+  padding: 2px;
+  left: 0px;
+  border-radius: 2px;
+  background: white;
 }
 
 .sort__cross:after {
   position: absolute;
-  background: orange;
   content: "";
-  /* height: 20px; */
-  left: -22px;
-  top: 12px;
-  width: 39px;
+  left: -14px;
+  top: 13px;
+  width: 29px;
   padding: 2px;
+  border-radius: 2px;
+  background: white;
 }
 
 @-webkit-keyframes triangle {
