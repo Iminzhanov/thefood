@@ -962,6 +962,9 @@ span {
 
 .sort__picture {
   width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sort__title {
